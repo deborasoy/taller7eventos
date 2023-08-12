@@ -1,8 +1,8 @@
 let cont = document.getElementById("cont");
 let btn = document.getElementById("btn");
 
-cont.addEventListener("click", helloDiv)
-btn.addEventListener("click", remove)
+cont.addEventListener("click", helloDiv);
+btn.addEventListener("click", remove);
 btn.addEventListener("click", let = () => { alert('Hola!') });
 
 
